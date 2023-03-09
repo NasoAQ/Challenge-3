@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-image: url(https://artlogic-res.cloudinary.com/w_2400,h_2400,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/irastehmann/images/view/3df6f4a51964ab53f262a33d8a92d206j/irastehmann-michael-kenna-trabocco-punta-aderci-study-2-vasto-abruzzo-italy-2016.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+}
+
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h1, h3 {
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #4c4b4d, #e7e2e0);
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul, li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+
+ul ,a {
+    text-decoration: none;
+    color: #4c4b4d;
+}
+
+footer {
+    padding: 16px;
+    background-color: black;
+    text-align: center;
+}
+
+#home-less {
+    color: white;
+    text-decoration: none;
+}
